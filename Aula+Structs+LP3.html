@@ -11812,7 +11812,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Introdu&#231;&#227;o">Introdu&#231;&#227;o<a class="anchor-link" href="#Introdu&#231;&#227;o">&#182;</a></h2><p><div style="text-align: justify">*Structs* também conhecida como registro, é um bloco que armazena diversas informações, ou seja, permite o armazenamento de diferentes tipos de dados na mesma estrutura, diferentemente dos vetores e matrizes que trabalham apenas com elementos do mesmo tipo. Desta forma, ao declarar uma struct está se declarando um novo tipo de dado.</div></p>
+<h2 id="Introdu&#231;&#227;o">Introdu&#231;&#227;o<a class="anchor-link" href="#Introdu&#231;&#227;o">&#182;</a></h2><p><div style="text-align: justify">*Struct*, também conhecida como registro, é um bloco que armazena diversas informações, ou seja, permite o armazenamento de diferentes tipos de dados na mesma estrutura, diferentemente dos vetores e matrizes que trabalham apenas com elementos do mesmo tipo. Desta forma, ao declarar uma struct está se declarando um novo tipo de dado.</div></p>
 <p><div style="text-align: justify">Como todos os tipos de dados primitivos têm tamanho definido, com *structs* não é diferente. Entretanto, o seu tamanho é definido pelos seus atributos. O tamanho de um tipo *struct* será a soma dos tamanhos de seus campos. Caso esse tamanho não seja ideal para a arquitetura do processador é feito, automaticamente, um *padding* (alocação de bytes não-signicativos) que serve para facilitar o trabalho de leitura de memória e colocação em registradores. Por isso, nem sempre uma *struct* tem tamanho igual à soma de seus atributos. Tal fatalidade é combatida pela diretiva de compilação *pragma*, que informa ao compilador que não é necessário realizar o *padding*.</div></p>
 <p><div style="text-align: justify">A importância de se usar *struct* é pelo fato de as vezes o programador precisar trabalhar com elementos que possuem várias características, desta forma, usando esse recurso da linguagem C, permite a manipulação desses elementos de forma mais prática, eficiente e organizada.</div></p>
 </div>
@@ -12139,7 +12139,7 @@ Idade de Thiago: 23
 <span class="c1">// Atribui a idade da pessoa referenciada pelo ponteiro p à variàvel idadeAux</span>
 <span class="kt">int</span> <span class="n">idadeAux</span> <span class="o">=</span> <span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">).</span><span class="n">idade</span><span class="p">;</span>
 </pre></div>
-<p>Essa sequência de passos pode resultar em erros de programação, visto que, pelo o operador "." ter precedência maior que o operador de indireção, se tentarmos acessar sem o uso de parênteses, obeteremos:</p>
+<p>Essa sequência de passos pode resultar em erros de programação, visto que, pelo o operador "." ter precedência maior que o operador de indireção, se tentarmos acessar sem o uso de parênteses, obteremos:</p>
 
 </div>
 </div>
