@@ -14,6 +14,7 @@
     * Manipulação de *structs* por registradores
 1. Ponteiros para struct
     * Operador "->"
+1. Referências
 
 ## Introdução
 
@@ -312,4 +313,24 @@ Para diminuir o risco de erros de sintaxe, foi introduzido, à linguaguem C, o o
 Pessoa* p;
 // Atribui a idade da pessoa referenciada pelo ponteiro p à variàvel idadeAux
 int idadeAux = p->idade;
+```
+
+## Referências
+
+Foram usadas as seguintes fontes para montar o conteúdo dessa aula:
+* Linguagem C, 10ª Edição;
+    LTC — Livros Técnicos e Científicos Editora Ltda;
+    Uma editora integrante do GEN | Grupo Editorial Nacional;
+    Autor Luís Damas;
+    Ano 2007.
+* Algoritmos e programação em linguagem C 1ª edição;
+    Editora Saraiva;
+    Autor Renato Soffner;
+    Ano 2013.
+* http://www.cprogressivo.net/;
+    Acessado em: 12 de outubro de 2017, às 19:00h
+
+
+```c
+
 ```
